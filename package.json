@@ -1,0 +1,55 @@
+{
+  "name": "kaiizer-spam-pairing",
+  "version": "2.1.0",
+  "description": "KAIIZER Spam Pairing - WhatsApp spam pairing code tool dengan 2 tema terminal (Normal & Hacker). Developer: kaiitezy official",
+  "main": "spam.js",
+  "bin": {
+    "kaiizer": "./spam.js"
+  },
+  "scripts": {
+    "start": "node spam.js",
+    "dev": "node spam.js"
+  },
+  "keywords": [
+    "kaiizer",
+    "kaiizer-tools",
+    "kaiitezy",
+    "okaii505",
+    "spam-pairing",
+    "pairing",
+    "pairing-code",
+    "whatsapp",
+    "baileys",
+    "cli",
+    "terminal",
+    "hacker",
+    "matrix",
+    "theme"
+  ],
+  "author": {
+    "name": "kaiitezy official",
+    "url": "https://github.com/okaii505"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "chalk": "^4.1.2",
+    "pino": "^9.5.0"
+  },
+  "files": [
+    "spam.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okaii505/kaiizer-spam-pairing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/okaii505/kaiizer-spam-pairing/issues"
+  },
+  "homepage": "https://github.com/okaii505/kaiizer-spam-pairing#readme"
+}
